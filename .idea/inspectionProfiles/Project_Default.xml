@@ -1,0 +1,15 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="social_network.api.views.userprofile__" />
+          <option value="social_network.api.views.*" />
+          <option value="My_Grocery_Store.online_products.tests.test_models.online_products" />
+          <option value="My_Grocery_Store.online_products.tests.test_serializers.online_products" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
