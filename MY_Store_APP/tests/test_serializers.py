@@ -15,13 +15,13 @@ def test_product_serializer():
 
 @pytest.mark.django_db
 def test_user_serializer():
-    data = {'username': 'naresh', 'email': 'test@example.com', 'password': 'password123', 'address': '123 Test St'}
+    data = {'username': 'name', 'email': 'test@example.com', 'password': 'password123', 'address': '123 Test St'}
     serializer = UserSerializer(data=data)
     assert serializer.is_valid()
 
 @pytest.mark.django_db
 def test_order_serializer():
-    user_data = {'username': 'naresh', 'email': 'test@example.com', 'password': 'password123', 'address': '123 Test St'}
+    user_data = {'username': 'name', 'email': 'test@example.com', 'password': 'password123', 'address': '123 Test St'}
     user_serializer = UserSerializer(data=user_data)
     user_serializer.is_valid()
     user_instance = user_serializer.save()
